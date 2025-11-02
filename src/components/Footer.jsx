@@ -58,7 +58,7 @@ function Footer() {
             style={{ width: "147px", height: "54px" }}
           />
           <Row className="mx-0 d-flex flex-column  align-items-center">
-            <div className="d-flex align-items-center px-md-0">
+            <div className="d-flex align-items-center px-0">
               <FontAwesomeIcon
                 icon={faPhoneVolume}
                 style={{ width: "15px" }}
@@ -88,7 +88,7 @@ function Footer() {
               info@millarcreativelifestyle.com
             </a>
             <Row className="mx-0 d-flex flex-column  align-items-center p-0">
-              <div className="d-flex  px-md-0">
+              <div className="d-flex  px-0">
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   style={{ width: "15px" }}

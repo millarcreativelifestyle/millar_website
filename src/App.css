@@ -112,7 +112,7 @@ html {
 }
 .team-img {
   width: 75%;
-  height: 75%;
+  /* height: 75%; */
 }
 .sec-4-header {
   font-size: 44px;
