@@ -295,8 +295,8 @@ html {
     text-align: justify;
   }
   .team-img {
-    height: 100%;
-    padding-bottom: 50px;
+    /* height: 100%; */
+    margin-bottom: 50px;
   }
   .sec-4-header {
     font-size: 35px;
