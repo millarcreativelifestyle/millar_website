@@ -260,6 +260,14 @@ html {
   letter-spacing: 2px;
   color: #ffffff;
 }
+.footer-text-3 {
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  /* letter-spacing: 2px; */
+  color: #ffffff;
+}
 .footer-certification-logo {
   width: 100px;
   height: 100px;

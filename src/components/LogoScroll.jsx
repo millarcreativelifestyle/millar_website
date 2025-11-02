@@ -14,6 +14,11 @@ import clogo11 from "../assets/clogo11.png";
 import clogo12 from "../assets/clogo12.jpg";
 import clogo13 from "../assets/clogo13.png";
 import clogo14 from "../assets/clogo14.jpeg";
+import clogo15 from "../assets/cln1.png";
+import clogo16 from "../assets/cln2.jpg";
+import clogo17 from "../assets/cln3.png";
+import clogo18 from "../assets/cln4.png";
+import clogo19 from "../assets/cln5.png";
 const LogoScroll = () => {
   const logos = [
     clogo1,
@@ -30,6 +35,11 @@ const LogoScroll = () => {
     clogo12,
     clogo13,
     clogo14,
+    clogo15,
+    clogo16,
+    clogo17,
+    clogo18,
+    clogo19,
   ];
 
   return (

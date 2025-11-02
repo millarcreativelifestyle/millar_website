@@ -3,13 +3,19 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import footerLogo from "../assets/flogo.png";
-import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLocationDot,
+  faPhoneVolume,
+} from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import c1 from "../assets/c1.png";
 import c2 from "../assets/c2.png";
 import c3 from "../assets/c3.png";
 import c4 from "../assets/c4.png";
 import c5 from "../assets/c5.png";
+import c6 from "../assets/c6.png";
+import c7 from "../assets/c7.png";
+
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
@@ -40,11 +46,11 @@ function Footer() {
   };
   return (
     <div className="footer" id="footer">
-      <Row className="mx-0 py-5 d-flex">
+      <Row className="mx-0 py-5 d-flex justify-content-between px-4">
         <Col
-          md={4}
+          md={3}
           sm={12}
-          className="mx-0 ps-md-5 ms-md-5 d-flex flex-column  pe-0 mb-sm-3 footer-column"
+          className="mx-0 d-flex flex-column  mb-sm-3 footer-column"
         >
           <img
             src={footerLogo}
@@ -52,34 +58,23 @@ function Footer() {
             style={{ width: "147px", height: "54px" }}
           />
           <Row className="mx-0 d-flex flex-column  align-items-center">
-            <div className="d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faWhatsapp}
-                style={{ width: "15px" }}
-                className="text-light ps-0 pe-2"
-              />
-              <a
-                className="m-0 footer-text p-0"
-                style={{ textDecoration: "none" }}
-                href="https://wa.me/+918075578701"
-              >
-                +91 8075578701{" "}
-              </a>
-            </div>
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center px-md-0">
               <FontAwesomeIcon
                 icon={faPhoneVolume}
                 style={{ width: "15px" }}
                 className="text-light ps-0 pe-2"
               />
               <p className="m-0 footer-text p-0">
-                +91 7025407081
-                <br />
-                +91 9495090780
+                <a
+                  href="tel:+918075578701"
+                  className="text-light text-decoration-none"
+                >
+                  +91 8075578701
+                </a>
               </p>
             </div>
           </Row>
-          <Row className="mx-0 d-flex ">
+          <Row className="mx-0 d-flex align-items-center">
             <FontAwesomeIcon
               icon={faEnvelope}
               style={{ width: "15px" }}
@@ -92,6 +87,20 @@ function Footer() {
             >
               info@millarcreativelifestyle.com
             </a>
+            <Row className="mx-0 d-flex flex-column  align-items-center p-0">
+              <div className="d-flex  px-md-0">
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  style={{ width: "15px" }}
+                  className="text-light ps-0 pe-2 pt-1"
+                />
+                <p className="m-0 footer-text p-0">
+                  Ground Floor, 26/37, Kattiparambil House, Cheranallur Ferry
+                  Road, Opp Kasthurba English Medium School, Manjummel,
+                  Ernakulam, Kerala, India Pin 683501
+                </p>
+              </div>
+            </Row>
             <p className="m-0 footer-text-2 p-0">
               GSTIN: 32AARCM2845FIZF
               <br />
@@ -101,11 +110,7 @@ function Footer() {
             </p>
           </Row>
         </Col>
-        <Col
-          md={3}
-          sm={12}
-          className="mx-0 p-0 d-flex flex-column footer-column"
-        >
+        <Col md={3} sm={12} className="mx-0 d-flex flex-column footer-column">
           <Row className="mx-0 d-flex align-itmes-center justify-content-center">
             <p
               className="m-0 footer-text p-0 fw-bold mb-2"
@@ -148,9 +153,44 @@ function Footer() {
               className="footer-certification-logo p-0"
             />
           </Row>
+          <Row className="mx-0 d-flex mt-3 d-flex align-itmes-center justify-content-center">
+            <img
+              src={c6}
+              alt="certification-logo"
+              className="footer-certification-logo p-0 me-2 w-auto"
+            />
+
+            <img
+              src={c7}
+              alt="certification-logo"
+              className="footer-certification-logo p-0 w-auto"
+            />
+          </Row>
+          <p className="text-light text-center mt-2">
+            All products and fabrics we source and use in our production are
+            certified, as listed above
+          </p>
         </Col>
-        <Col md={4} sm={12} className="mx-0  d-flex flex-column ">
+        <Col md={3} sm={12} className="mx-0 d-flex flex-column">
+          <iframe
+            title="office-location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.491546497385!2d76.29264937479446!3d10.058749490049681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ded96c15e4f%3A0x6389cfac01bc2b53!2sMillar%20Creative%20Lifestyle%20India%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1756961197598!5m2!1sen!2sin"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </Col>
+        <Col md={3} sm={12} className="mx-0  d-flex flex-column ">
           <form onSubmit={handleSubmit}>
+            <label className="footer-text fw-bold pb-2">Drop Us A Line</label>
+            <p className="footer-text-3 pb-2">
+              We're happy to answer any questions you have or provide you with
+              an estimate. Just send us a message in the form below with any
+              questions you may have.
+            </p>
             <input
               type="text"
               className="form-control bg-transparent rounded-0 text-light mb-4"

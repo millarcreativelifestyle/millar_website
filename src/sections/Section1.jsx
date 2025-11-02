@@ -3,7 +3,7 @@ import "../App.css";
 import NavMenu from "../components/NavMenu";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import heroLogo from "../assets/hero-logo.png";
+import heroLogo from "../assets/hero-logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons/faAngleDown";
 import downArrow from "../assets/downArrow.png";

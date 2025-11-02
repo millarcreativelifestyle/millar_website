@@ -6,6 +6,7 @@ import tshirt from "../assets/tshirt.png";
 import polo from "../assets/polo.png";
 import jersey from "../assets/jersey.png";
 import os from "../assets/os.png";
+import shorts from "../assets/shorts.png";
 import hoodie from "../assets/hoodie.png";
 import tp from "../assets/tp.png";
 import jacket from "../assets/jacket.png";
@@ -77,6 +78,15 @@ function Section4() {
           data-aos-duration="1000"
         >
           <ApparelCard img={uniform} text={"UNIFORMS"} />
+        </Col>
+        <Col
+          lg={3}
+          md={12}
+          sm={12}
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <ApparelCard img={shorts} text={"SHORTS"} />
         </Col>
       </Row>
       <Row className="mx-0 d-flex flex-column">
