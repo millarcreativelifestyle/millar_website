@@ -75,7 +75,26 @@ function Footer() {
             </div>
           </Row>
           <Row className="mx-0 d-flex align-items-center">
-            <FontAwesomeIcon
+            <Row className="mx-0 d-flex flex-column  align-items-center px-0">
+              <div className="d-flex align-items-center px-0">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  style={{ width: "15px" }}
+                  className="text-light ps-0 pe-2"
+                />
+                <p className="m-0 footer-text p-0">
+                  <a
+                    href="mailto:info@millarcreativelifestyle.com"
+                    className="m-0 footer-text p-0"
+                    style={{ textDecoration: "none" }}
+                  >
+                    info@millarcreativelifestyle.com
+                  </a>
+                </p>
+              </div>
+            </Row>
+
+            {/* <FontAwesomeIcon
               icon={faEnvelope}
               style={{ width: "15px" }}
               className="text-light ps-0 pe-2"
@@ -86,7 +105,7 @@ function Footer() {
               style={{ textDecoration: "none" }}
             >
               info@millarcreativelifestyle.com
-            </a>
+            </a> */}
             <Row className="mx-0 d-flex flex-column  align-items-center p-0">
               <div className="d-flex  px-0">
                 <FontAwesomeIcon
