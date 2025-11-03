@@ -235,7 +235,9 @@ html {
 .footer {
   background-color: #234752;
 }
-
+.footer-border {
+  border-bottom: 1px solid yellow;
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);

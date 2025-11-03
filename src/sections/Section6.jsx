@@ -6,6 +6,7 @@ import orgCotton from "../assets/org.png";
 import polyCotton from "../assets/poly.png";
 import recycledPolyster from "../assets/rpoly.png";
 import bamboo from "../assets/bam.png";
+import polyster from "../assets/polyster.png";
 function Section6() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -73,8 +74,15 @@ function Section6() {
           <p className="mb-0 fabric-sub-txt">
             RECYCLED
             <br />
-            POLYSTER
+            POLYESTER
           </p>
+        </div>
+        <div
+          className="d-flex flex-column justify-content-center align-items-center mx-2"
+          style={{ width: "fit-content" }}
+        >
+          <img src={polyster} alt="fabric" className="fabric-img" />
+          <p className="mb-0 fabric-sub-txt">POLYESTER</p>
         </div>
       </Row>
       <Row className="mx-0" data-aos="fade-up" data-aos-duration="1000">

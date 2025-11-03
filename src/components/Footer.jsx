@@ -52,11 +52,17 @@ function Footer() {
           sm={12}
           className="mx-0 d-flex flex-column  mb-sm-3 footer-column"
         >
-          <img
+          {/* <img
             src={footerLogo}
             alt="footer-logo"
             style={{ width: "147px", height: "54px" }}
-          />
+          /> */}
+          <p
+            className="m-0 footer-text p-0  mb-2 footer-border pb-1"
+            style={{ fontSize: "18px" }}
+          >
+            Contact Us
+          </p>
           <Row className="mx-0 d-flex flex-column  align-items-center">
             <div className="d-flex align-items-center px-0">
               <FontAwesomeIcon
@@ -76,7 +82,7 @@ function Footer() {
           </Row>
           <Row className="mx-0 d-flex align-items-center">
             <Row className="mx-0 d-flex flex-column  align-items-center px-0">
-              <div className="d-flex align-items-center px-0">
+              <div className="d-flex align-items-center px-0 footer-border pb-1">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   style={{ width: "15px" }}
@@ -107,7 +113,7 @@ function Footer() {
               info@millarcreativelifestyle.com
             </a> */}
             <Row className="mx-0 d-flex flex-column  align-items-center p-0">
-              <div className="d-flex  px-0">
+              <div className="d-flex  px-0 footer-border pb-2">
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   style={{ width: "15px" }}
@@ -130,12 +136,14 @@ function Footer() {
           </Row>
         </Col>
         <Col md={3} sm={12} className="mx-0 d-flex flex-column footer-column">
-          <Row className="mx-0 d-flex align-itmes-center justify-content-center">
+          <Row className="mx-0 d-flex align-items-center justify-content-center">
             <p
-              className="m-0 footer-text p-0 fw-bold mb-2"
-              style={{ fontSize: "18px" }}
+              className="m-0 footer-text p-0 text-center mb-3 footer-border pb-2"
+              style={{ fontSize: "14px" }}
             >
-              CERTIFICATIONS
+              Built on Certified Inputs, Backed by Quality" The products and
+              fabrics we maintain in production are sourced from certified
+              suppliers, as listed.
             </p>
           </Row>
           <Row className="mx-0 d-flex align-itmes-center justify-content-center">
@@ -185,10 +193,6 @@ function Footer() {
               className="footer-certification-logo p-0 w-auto"
             />
           </Row>
-          <p className="text-light text-center mt-2">
-            All products and fabrics we source and use in our production are
-            certified, as listed above
-          </p>
         </Col>
         <Col md={3} sm={12} className="mx-0 d-flex flex-column">
           <iframe
