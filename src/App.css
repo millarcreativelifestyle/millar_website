@@ -236,7 +236,7 @@ html {
   background-color: #234752;
 }
 .footer-border {
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #ffffff;
 }
 @keyframes scroll {
   0% {

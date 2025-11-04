@@ -18,7 +18,7 @@ function Section6() {
         </p>
       </Row>
       <Row
-        className="mx-0 d-flex justify-content-center align-items-center"
+        className="mx-0 d-flex justify-content-center align-items-start"
         data-aos="fade-down"
         data-aos-duration="1000"
       >

@@ -12,7 +12,7 @@ function NavMenu() {
           <img
             src={logo}
             alt="logo"
-            style={{ width: "118px", height: "44px" }}
+            style={{ width: "124px", height: "56px" }}
             data-aos="fade-down"
             data-aos-duration="1000"
           />

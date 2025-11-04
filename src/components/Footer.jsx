@@ -82,7 +82,7 @@ function Footer() {
           </Row>
           <Row className="mx-0 d-flex align-items-center">
             <Row className="mx-0 d-flex flex-column  align-items-center px-0">
-              <div className="d-flex align-items-center px-0 footer-border pb-1">
+              <div className="d-flex align-items-center px-0  pb-1">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   style={{ width: "15px" }}
@@ -139,11 +139,9 @@ function Footer() {
           <Row className="mx-0 d-flex align-items-center justify-content-center">
             <p
               className="m-0 footer-text p-0 text-center mb-3 footer-border pb-2"
-              style={{ fontSize: "14px" }}
+              style={{ fontSize: "18px" }}
             >
-              Built on Certified Inputs, Backed by Quality" The products and
-              fabrics we maintain in production are sourced from certified
-              suppliers, as listed.
+              Built on Certified Inputs, Backed by Quality
             </p>
           </Row>
           <Row className="mx-0 d-flex align-itmes-center justify-content-center">
@@ -173,26 +171,23 @@ function Footer() {
               alt="certification-logo"
               className="footer-certification-logo p-0 me-2"
             />
-
-            <img
-              src={c5}
-              alt="certification-logo"
-              className="footer-certification-logo p-0"
-            />
-          </Row>
-          <Row className="mx-0 d-flex mt-3 d-flex align-itmes-center justify-content-center">
             <img
               src={c6}
               alt="certification-logo"
               className="footer-certification-logo p-0 me-2 w-auto"
             />
-
+          </Row>
+          <Row className="mx-0 d-flex mt-3 d-flex align-itmes-center justify-content-center">
             <img
               src={c7}
               alt="certification-logo"
               className="footer-certification-logo p-0 w-auto"
             />
           </Row>
+          <p className="text-light mt-2 text-center">
+            The products and fabrics we maintain in production are sourced from
+            certified suppliers, as listed.
+          </p>
         </Col>
         <Col md={3} sm={12} className="mx-0 d-flex flex-column">
           <iframe

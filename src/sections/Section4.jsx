@@ -31,11 +31,11 @@ function Section4() {
         </h1>
       </Row>
       <Row className="mx-0 px-5">
-        <Col lg={3} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
+        <Col lg={4} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
           <ApparelCard img={tshirt} text={"CREW NECK T - SHIRT"} />
         </Col>
         <Col
-          lg={3}
+          lg={4}
           md={12}
           sm={12}
           data-aos="fade-down"
@@ -43,11 +43,11 @@ function Section4() {
         >
           <ApparelCard img={polo} text={"POLO T - SHIRT"} />
         </Col>
-        <Col lg={3} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
+        <Col lg={4} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
           <ApparelCard img={jersey} text={"JERSEY"} />
         </Col>
         <Col
-          lg={3}
+          lg={4}
           md={12}
           sm={12}
           data-aos="fade-down"
@@ -55,11 +55,11 @@ function Section4() {
         >
           <ApparelCard img={os} text={"OVERSIZED TEES"} />
         </Col>
-        <Col lg={3} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
+        <Col lg={4} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
           <ApparelCard img={hoodie} text={"HOODIES"} />
         </Col>
         <Col
-          lg={3}
+          lg={4}
           md={12}
           sm={12}
           data-aos="fade-down"
@@ -67,11 +67,11 @@ function Section4() {
         >
           <ApparelCard img={tp} text={"TRACK PANTS"} />
         </Col>
-        <Col lg={3} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
+        <Col lg={4} md={12} sm={12} data-aos="fade-up" data-aos-duration="1000">
           <ApparelCard img={jacket} text={"VARSITY JACKET"} />
         </Col>
         <Col
-          lg={3}
+          lg={4}
           md={12}
           sm={12}
           data-aos="fade-down"
@@ -80,7 +80,7 @@ function Section4() {
           <ApparelCard img={uniform} text={"UNIFORMS"} />
         </Col>
         <Col
-          lg={3}
+          lg={4}
           md={12}
           sm={12}
           data-aos="fade-down"
