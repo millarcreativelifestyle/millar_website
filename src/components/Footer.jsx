@@ -74,7 +74,7 @@ function Footer() {
               <p className="m-0 footer-text p-0">
                 <a
                   href="tel:+918075578701"
-                  className="text-light text-decoration-none"
+                  className="text-light text-decoration-none fw-bold"
                 >
                   +91 8075578701
                 </a>
@@ -86,17 +86,17 @@ function Footer() {
                 style={{ width: "15px" }}
                 className="text-light ps-0 pe-2"
               />
-              <p className="m-0 footer-text p-0">
+              <p className="m-0 footer-text p-0 ">
                 <a
                   href="mailto:info@millarcreativelifestyle.com"
-                  className="m-0 footer-text p-0"
+                  className="m-0 footer-text p-0 fw-bold"
                   style={{ textDecoration: "none" }}
                 >
                   info@millarcreativelifestyle.com
                 </a>
               </p>
             </div>
-            <Row className="mx-0 d-flex flex-column  align-items-center p-0 mt-md-5">
+            <Row className="mx-0 d-flex flex-column  align-items-center p-0 mt-md-3">
               <div className="d-flex  px-0 ">
                 <FontAwesomeIcon
                   icon={faLocationDot}
@@ -110,7 +110,7 @@ function Footer() {
                 </p>
               </div>
             </Row>
-            <Row className="mx-0 d-flex align-items-center mt-md-5 pt--md-3">
+            <Row className="mx-0 d-flex align-items-center mt-md-3">
               <p className="m-0 footer-text-2 p-0">
                 GSTIN: 32AARCM2845FIZF
                 <br />
@@ -121,73 +121,66 @@ function Footer() {
             </Row>
           </Row>
         </Col>
-        <Col md={3} sm={12} className="mx-0 d-flex flex-column footer-column">
+        <Col md={5} sm={12} className="mx-0 d-flex flex-column footer-column">
           <Row className="mx-0 d-flex align-items-center justify-content-center">
             <p
               className="m-0 footer-text p-0 text-center mb-3 pb-2 fw-bold"
               style={{ fontSize: "18px" }}
             >
-              Built on Certified Inputs, Backed by Quality
+              Built on Certified Inputs,
+              <br /> Backed by Quality
             </p>
           </Row>
-          <Row className="mx-0 d-flex align-itmes-center justify-content-center">
+          <Row className="mx-0 d-flex align-items-center justify-content-center">
             <img
               src={c1}
               alt="certification-logo"
               style={{ width: "167px", height: "65px" }}
               className="p-0"
             />
-          </Row>
-          <Row className="mx-0 d-flex d-flex align-itmes-center justify-content-center">
             <img
               src={c2}
               alt="certification-logo"
-              className="footer-certification-logo p-0 me-2"
+              className="footer-certification-logo p-0 ms-2"
             />
-
+          </Row>
+          <Row className="mx-0 d-flex d-flex align-itmes-center justify-content-center">
             <img
               src={c3}
               alt="certification-logo"
               className="footer-certification-logo p-0"
             />
-          </Row>
-          <Row className="mx-0 d-flex mt-3 d-flex align-itmes-center justify-content-center">
             <img
               src={c4}
               alt="certification-logo"
               className="footer-certification-logo p-0 me-2"
             />
-            <img
-              src={c6}
-              alt="certification-logo"
-              className="footer-certification-logo p-0 me-2 w-auto"
-            />
           </Row>
+
           <Row className="mx-0 d-flex mt-3 d-flex align-itmes-center justify-content-center">
             <img
               src={c7}
               alt="certification-logo"
               className="footer-certification-logo p-0 w-auto"
             />
+            <img
+              src={c6}
+              alt="certification-logo"
+              className="footer-certification-logo p-0 ms-2 w-auto"
+            />
           </Row>
-          <p className="text-light mt-2 text-center">
-            The products and fabrics we maintain in production are sourced from
-            certified suppliers, as listed.
-          </p>
+          <div className="d-flex justify-content-center align-items-center">
+            <p
+              className="text-light mt-2 text-center"
+              style={{ maxWidth: "400px" }}
+            >
+              The products and fabrics we maintain in production are sourced
+              from certified suppliers, as listed.
+            </p>
+          </div>
         </Col>
-        <Col md={3} sm={12} className="mx-0 d-flex flex-column">
-          <iframe
-            title="office-location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.491546497385!2d76.29264937479446!3d10.058749490049681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080ded96c15e4f%3A0x6389cfac01bc2b53!2sMillar%20Creative%20Lifestyle%20India%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1756961197598!5m2!1sen!2sin"
-            width="100%"
-            height="300"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </Col>
-        <Col md={3} sm={12} className="mx-0  d-flex flex-column ">
+
+        <Col md={4} sm={12} className="mx-0  d-flex flex-column ">
           <form onSubmit={handleSubmit}>
             <label className="footer-text fw-bold pb-2">Drop Us A Line</label>
             <p className="footer-text-3 pb-2">
