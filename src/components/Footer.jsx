@@ -46,24 +46,25 @@ function Footer() {
   };
   return (
     <div className="footer" id="footer">
-      <Row className="mx-0 py-5 d-flex justify-content-between px-4">
+      <Row className="mx-0 py-5 d-flex justify-content-between px-4 ">
         <Col
           md={3}
           sm={12}
-          className="mx-0 d-flex flex-column  mb-sm-3 footer-column"
+          className="mx-0 d-flex flex-column  mb-sm-3 footer-column justify-content-between"
         >
           {/* <img
             src={footerLogo}
             alt="footer-logo"
             style={{ width: "147px", height: "54px" }}
           /> */}
-          <p
-            className="m-0 footer-text p-0  mb-2 footer-border pb-1"
-            style={{ fontSize: "18px" }}
-          >
-            Contact Us
-          </p>
-          <Row className="mx-0 d-flex flex-column  align-items-center">
+
+          <Row className="mx-0 d-flex flex-column  align-items-start">
+            <p
+              className="m-0 footer-text p-0  mb-2 footer-border pb-1 fw-bold"
+              style={{ fontSize: "18px" }}
+            >
+              Contact Us
+            </p>
             <div className="d-flex align-items-center px-0">
               <FontAwesomeIcon
                 icon={faPhoneVolume}
@@ -79,41 +80,24 @@ function Footer() {
                 </a>
               </p>
             </div>
-          </Row>
-          <Row className="mx-0 d-flex align-items-center">
-            <Row className="mx-0 d-flex flex-column  align-items-center px-0">
-              <div className="d-flex align-items-center px-0  pb-1">
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  style={{ width: "15px" }}
-                  className="text-light ps-0 pe-2"
-                />
-                <p className="m-0 footer-text p-0">
-                  <a
-                    href="mailto:info@millarcreativelifestyle.com"
-                    className="m-0 footer-text p-0"
-                    style={{ textDecoration: "none" }}
-                  >
-                    info@millarcreativelifestyle.com
-                  </a>
-                </p>
-              </div>
-            </Row>
-
-            {/* <FontAwesomeIcon
-              icon={faEnvelope}
-              style={{ width: "15px" }}
-              className="text-light ps-0 pe-2"
-            />
-            <a
-              href="mailto:info@millarcreativelifestyle.com"
-              className="m-0 footer-text p-0"
-              style={{ textDecoration: "none" }}
-            >
-              info@millarcreativelifestyle.com
-            </a> */}
-            <Row className="mx-0 d-flex flex-column  align-items-center p-0">
-              <div className="d-flex  px-0 footer-border pb-2">
+            <div className="d-flex align-items-center px-0  pb-1">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                style={{ width: "15px" }}
+                className="text-light ps-0 pe-2"
+              />
+              <p className="m-0 footer-text p-0">
+                <a
+                  href="mailto:info@millarcreativelifestyle.com"
+                  className="m-0 footer-text p-0"
+                  style={{ textDecoration: "none" }}
+                >
+                  info@millarcreativelifestyle.com
+                </a>
+              </p>
+            </div>
+            <Row className="mx-0 d-flex flex-column  align-items-center p-0 mt-md-5">
+              <div className="d-flex  px-0 ">
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   style={{ width: "15px" }}
@@ -126,19 +110,21 @@ function Footer() {
                 </p>
               </div>
             </Row>
-            <p className="m-0 footer-text-2 p-0">
-              GSTIN: 32AARCM2845FIZF
-              <br />
-              CIN NO: U13999KL2023PTC083459
-              <br />
-              IMPORT EXPORT CODE: IEC AARCM2845F
-            </p>
+            <Row className="mx-0 d-flex align-items-center mt-md-5 pt--md-3">
+              <p className="m-0 footer-text-2 p-0">
+                GSTIN: 32AARCM2845FIZF
+                <br />
+                CIN NO: U13999KL2023PTC083459
+                <br />
+                IEC: AARCM2845F
+              </p>
+            </Row>
           </Row>
         </Col>
         <Col md={3} sm={12} className="mx-0 d-flex flex-column footer-column">
           <Row className="mx-0 d-flex align-items-center justify-content-center">
             <p
-              className="m-0 footer-text p-0 text-center mb-3 footer-border pb-2"
+              className="m-0 footer-text p-0 text-center mb-3 pb-2 fw-bold"
               style={{ fontSize: "18px" }}
             >
               Built on Certified Inputs, Backed by Quality

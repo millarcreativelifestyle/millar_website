@@ -232,6 +232,10 @@ html {
   margin: 0 10px;
   flex-shrink: 0;
 }
+.nav-logo {
+  width: 188px;
+  height: auto;
+}
 .footer {
   background-color: #234752;
 }
@@ -278,6 +282,10 @@ html {
   color: white;
 }
 @media (max-width: 768px) {
+  .nav-logo {
+    width: 136px;
+    height: auto;
+  }
   .hero-text {
     font-size: 28px;
   }

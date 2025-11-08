@@ -12,9 +12,9 @@ function NavMenu() {
           <img
             src={logo}
             alt="logo"
-            style={{ width: "124px", height: "56px" }}
             data-aos="fade-down"
             data-aos-duration="1000"
+            className="nav-logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
