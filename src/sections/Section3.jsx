@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import teamImg from "../assets/group-img.webp";
+import teamImg from "../assets/photo_10_2026-07-26_20-08-05.jpg";
 function Section3() {
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
@@ -11,9 +11,8 @@ function Section3() {
         lg={6}
         md={12}
         sm={12}
-        className={`d-flex flex-column p-5 ${
-          isMobile ? "justify-content-center align-items-center" : ""
-        }`}
+        className={`d-flex flex-column p-5 ${isMobile ? "justify-content-center align-items-center" : ""
+          }`}
         data-aos="fade-right"
         data-aos-duration="1000"
       >

@@ -98,7 +98,7 @@ html {
   font-size: 44px;
   letter-spacing: 3px;
   line-height: 50px;
-  width: 50%;
+  width: 100%;
   color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -111,8 +111,11 @@ html {
   text-align: justify;
 }
 .team-img {
-  width: 75%;
-  /* height: 75%; */
+  width: 96%;
+  height: 340px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
 .sec-4-header {
   font-size: 44px;
@@ -305,8 +308,11 @@ html {
     text-align: justify;
   }
   .team-img {
-    /* height: 100%; */
-    margin-bottom: 50px;
+    width: 96%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 40px;
   }
   .sec-4-header {
     font-size: 35px;
@@ -354,8 +360,12 @@ html {
     text-align: justify;
   }
   .team-img {
-    height: 90%; /* Adjusted height for tablets */
-    padding-bottom: 40px;
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding-bottom: 0;
+    margin-bottom: 40px;
   }
   .sec-4-header {
     font-size: 40px;

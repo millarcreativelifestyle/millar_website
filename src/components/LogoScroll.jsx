@@ -19,6 +19,16 @@ import clogo16 from "../assets/cln2.jpg";
 import clogo17 from "../assets/cln3.png";
 import clogo18 from "../assets/cln4.png";
 import clogo19 from "../assets/cln5.png";
+import clogo20 from "../assets/photo_1_2026-07-26_20-08-05.jpg";
+import clogo21 from "../assets/photo_2_2026-07-26_20-08-05.jpg";
+import clogo22 from "../assets/photo_3_2026-07-26_20-08-05.jpg";
+import clogo23 from "../assets/photo_4_2026-07-26_20-08-05.jpg";
+import clogo24 from "../assets/photo_5_2026-07-26_20-08-05.jpg";
+import clogo25 from "../assets/photo_6_2026-07-26_20-08-05.jpg";
+import clogo26 from "../assets/photo_7_2026-07-26_20-08-05.jpg";
+import clogo27 from "../assets/photo_8_2026-07-26_20-08-05.jpg";
+import clogo28 from "../assets/photo_9_2026-07-26_20-08-05.jpg";
+
 const LogoScroll = () => {
   const logos = [
     clogo1,
@@ -40,6 +50,15 @@ const LogoScroll = () => {
     clogo17,
     clogo18,
     clogo19,
+    clogo20,
+    clogo21,
+    clogo22,
+    clogo23,
+    clogo24,
+    clogo25,
+    clogo26,
+    clogo27,
+    clogo28
   ];
 
   return (
