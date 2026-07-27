@@ -226,12 +226,16 @@ html {
 
 .logo-container {
   display: flex;
+  align-items: center;
   animation: scroll 20s linear infinite;
 }
 
 .logo {
   max-width: 150px;
   max-height: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   margin: 0 10px;
   flex-shrink: 0;
 }
